@@ -1,0 +1,31 @@
+python
+http://ec2-54-91-51-177.compute-1.amazonaws.com/user/9ripVuK2cmUv/notebooks/box-office/Box%20Office%20Prediction.ipynb
+http://ec2-54-91-51-177.compute-1.amazonaws.com/user/9ripVuK2cmUv/notebooks/box-office/movie-metadata.csv
+https://www.thinkful.com/workshops/city/box-office/
+
+1) look at data
+2) clean data
+		remove null 
+		and filter
+3) visualize (tell a story)
+		plots
+4) prediction
+5) cleanse and repeat
+		drop post fact data - facebook likes, number of reviews, imdb_score
+		** if got good reviews = good box office => but do not want that bc want to predict
+		[416] .41 = not so good because no more linear 
+
+data.shape
+	output (row, column)
+
+	data.describe
+		general statistics
+		
+384
+	declaring a method
+	
+396
+	find correlation
+	the higher the number the better correlation
+400 
+	verify 80/20 split
